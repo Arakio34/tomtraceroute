@@ -1,0 +1,6 @@
+#structure traceroute
+
+Objectif : 
+    - Executer plusieur traceroute afin d'avoir le moins d'etoile.
+    - Parser pour obtenire uniquement les IP
+    - Concatenation des tableaux si il y a encore des etoile      
