@@ -28,7 +28,7 @@ function Help () {
 }
 
 function Trsolo () {
-    protocole=("-I" "-U" "-T" "-T-p80" "-T-p22" "-T-p20")
+    protocole=("-I") # "-U" "-T" "-T-p80" "-T-p22" "-T-p20")
 	declare -A shapePRO=( ['-U']="normal" ['-I']="diamond" ['-T']="vee" ['-D']="crow" ['-T-p80']="tee" ['-T-p22']="box" ['-T-p20']="dot" )
 	color=( "red" "blue" "purple" "green" "brown" "coral" "darkorange" "gray" "gold" "pink" "cyan" "silver" "tomato" "slateblue" "webmaroon" "skyblue")
 	echo > dote.dot
