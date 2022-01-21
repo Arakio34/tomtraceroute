@@ -105,7 +105,7 @@ function Predef () {
 }
 
 
-while getopts ":af:h:u:" option; do
+while getopts "ahu:f:" option; do
     case "$option" in
         h) # Affiche l'aide.
             echo "Page d'aide."
@@ -135,4 +135,4 @@ while getopts ":af:h:u:" option; do
             ;;
     esac
 done
-
+Help
