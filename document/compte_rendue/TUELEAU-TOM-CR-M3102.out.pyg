@@ -1,0 +1,62 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    \PYG{n+nv}{protocole}\PYG{o}{=(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}I\PYGZdq{}}\PYG{o}{)} \PYG{c+c1}{\PYGZsh{} \PYGZdq{}\PYGZhy{}U\PYGZdq{} \PYGZdq{}\PYGZhy{}T\PYGZdq{} \PYGZdq{}\PYGZhy{}T\PYGZhy{}p80\PYGZdq{} \PYGZdq{}\PYGZhy{}T\PYGZhy{}p22\PYGZdq{} \PYGZdq{}\PYGZhy{}T\PYGZhy{}p20\PYGZdq{})}
+	\PYG{n+nb}{declare} \PYGZhy{}A \PYG{n+nv}{shapePRO}\PYG{o}{=(} \PYG{o}{[}\PYG{l+s+s1}{\PYGZsq{}\PYGZhy{}U\PYGZsq{}}\PYG{o}{]=}\PYG{l+s+s2}{\PYGZdq{}normal\PYGZdq{}} \PYG{o}{[}\PYG{l+s+s1}{\PYGZsq{}\PYGZhy{}I\PYGZsq{}}\PYG{o}{]=}\PYG{l+s+s2}{\PYGZdq{}diamond\PYGZdq{}} \PYG{o}{[}\PYG{l+s+s1}{\PYGZsq{}\PYGZhy{}T\PYGZsq{}}\PYG{o}{]=}\PYG{l+s+s2}{\PYGZdq{}vee\PYGZdq{}} \PYG{o}{[}\PYG{l+s+s1}{\PYGZsq{}\PYGZhy{}D\PYGZsq{}}\PYG{o}{]=}\PYG{l+s+s2}{\PYGZdq{}crow\PYGZdq{}} \PYG{o}{[}\PYG{l+s+s1}{\PYGZsq{}\PYGZhy{}T\PYGZhy{}p80\PYGZsq{}}\PYG{o}{]=}\PYG{l+s+s2}{\PYGZdq{}tee\PYGZdq{}} \PYG{o}{[}\PYG{l+s+s1}{\PYGZsq{}\PYGZhy{}T\PYGZhy{}p22\PYGZsq{}}\PYG{o}{]=}\PYG{l+s+s2}{\PYGZdq{}box\PYGZdq{}} \PYG{o}{[}\PYG{l+s+s1}{\PYGZsq{}\PYGZhy{}T\PYGZhy{}p20\PYGZsq{}}\PYG{o}{]=}\PYG{l+s+s2}{\PYGZdq{}dot\PYGZdq{}} \PYG{o}{)}
+	\PYG{n+nv}{color}\PYG{o}{=(} \PYG{l+s+s2}{\PYGZdq{}red\PYGZdq{}} \PYG{l+s+s2}{\PYGZdq{}blue\PYGZdq{}} \PYG{l+s+s2}{\PYGZdq{}purple\PYGZdq{}} \PYG{l+s+s2}{\PYGZdq{}green\PYGZdq{}} \PYG{l+s+s2}{\PYGZdq{}brown\PYGZdq{}} \PYG{l+s+s2}{\PYGZdq{}coral\PYGZdq{}} \PYG{l+s+s2}{\PYGZdq{}darkorange\PYGZdq{}} \PYG{l+s+s2}{\PYGZdq{}gray\PYGZdq{}} \PYG{l+s+s2}{\PYGZdq{}gold\PYGZdq{}} \PYG{l+s+s2}{\PYGZdq{}pink\PYGZdq{}} \PYG{l+s+s2}{\PYGZdq{}cyan\PYGZdq{}} \PYG{l+s+s2}{\PYGZdq{}silver\PYGZdq{}} \PYG{l+s+s2}{\PYGZdq{}tomato\PYGZdq{}} \PYG{l+s+s2}{\PYGZdq{}slateblue\PYGZdq{}} \PYG{l+s+s2}{\PYGZdq{}webmaroon\PYGZdq{}} \PYG{l+s+s2}{\PYGZdq{}skyblue\PYGZdq{}}\PYG{o}{)}
+	\PYG{n+nb}{echo} \PYGZgt{} dote.dot
+	\PYG{n+nv}{urlia}\PYG{o}{=}\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}@
+
+    \PYG{c+c1}{\PYGZsh{} Debut de la carte}
+    \PYG{n+nb}{echo} \PYG{l+s+s2}{\PYGZdq{}digraph A \PYGZob{}\PYGZdq{}} \PYGZgt{}\PYGZgt{}dote.dot
+
+    \PYG{c+c1}{\PYGZsh{} Creation de la legende.}
+    \PYG{k}{for} pro \PYG{k}{in} \PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}\PYG{o}{\PYGZob{}}protocole\PYG{o}{[}@\PYG{o}{]\PYGZcb{}}
+	\PYG{k}{do}
+		\PYG{n+nv}{shape}\PYG{o}{=}\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}\PYG{o}{\PYGZob{}}shapePRO\PYG{o}{[}\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}pro\PYG{o}{]\PYGZcb{}}
+		\PYG{n+nb}{echo} \PYG{l+s+s2}{\PYGZdq{}\PYGZbs{}\PYGZdq{}PROTOCOLE\PYGZbs{}\PYGZdq{}\PYGZhy{}\PYGZgt{}\PYGZbs{}\PYGZdq{}prot = \PYGZbs{}\PYGZdl{}pro\PYGZbs{}\PYGZdq{}\PYGZhy{}\PYGZgt{}\PYGZbs{}\PYGZdq{}\PYGZbs{}\PYGZdl{}shape\PYGZbs{}\PYGZdq{}[arrowhead=\PYGZbs{}\PYGZdl{}shape]\PYGZdq{}} \PYGZgt{}\PYGZgt{} dote.dot
+	\PYG{k}{done}
+
+    \PYG{n+nv}{y}\PYG{o}{=}\PYG{l+m}{0}
+	\PYG{k}{for} url \PYG{k}{in} \PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}\PYG{o}{\PYGZob{}}urlia\PYG{o}{[}@\PYG{o}{]\PYGZcb{}}
+	\PYG{k}{do}
+		\PYG{n+nb}{echo} \PYG{l+s+s2}{\PYGZdq{} \PYGZbs{}\PYGZdq{}URL\PYGZbs{}\PYGZdq{} \PYGZhy{}\PYGZgt{} \PYGZbs{}\PYGZdq{}url = \PYGZbs{}\PYGZdl{}url\PYGZbs{}\PYGZdq{}\PYGZhy{}\PYGZgt{}\PYGZbs{}\PYGZdq{}\PYGZbs{}\PYGZdl{}\PYGZob{}color[\PYGZbs{}\PYGZdl{}y]\PYGZcb{}\PYGZbs{}\PYGZdq{}[color=\PYGZbs{}\PYGZdl{}\PYGZob{}color[\PYGZbs{}\PYGZdl{}y]\PYGZcb{}]\PYGZdq{}} \PYGZgt{}\PYGZgt{} dote.dot
+		\PYG{n+nv}{y}\PYG{o}{=}\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}y+1
+	\PYG{k}{done}
+
+    \PYG{c+c1}{\PYGZsh{} Debuts de la route.}
+    \PYG{n+nv}{i}\PYG{o}{=}\PYG{l+m}{0}
+	\PYG{k}{for} url \PYG{k}{in} \PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}\PYG{o}{\PYGZob{}}urlia\PYG{o}{[}@\PYG{o}{]\PYGZcb{}}
+	\PYG{k}{do}	
+		\PYG{n+nb}{echo} \PYGZhy{}e \PYG{l+s+s2}{\PYGZdq{}Traceroute sur \PYGZbs{}e[31m\PYGZbs{}\PYGZdl{}url \PYGZbs{}e[39m...\PYGZdq{}}
+		\PYG{k}{for} pro \PYG{k}{in} \PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}\PYG{o}{\PYGZob{}}protocole\PYG{o}{[}@\PYG{o}{]\PYGZcb{}}
+		\PYG{k}{do}
+			\PYG{n+nb}{echo} \PYG{l+s+s2}{\PYGZdq{}\PYGZbs{}\PYGZdl{}pro\PYGZdq{}}
+			\PYG{n+nb}{echo} \PYGZgt{} \PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}url\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}pro
+			\PYG{n+nv}{prob}\PYG{o}{=}\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}\PYG{o}{(}\PYG{n+nb}{echo} \PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}pro \PYG{p}{|} sed \PYG{l+s+s2}{\PYGZdq{}s/\PYGZbs{}\PYGZhy{}/ \PYGZbs{}\PYGZhy{}/g\PYGZdq{}}\PYG{o}{)}
+			traceroute \PYGZhy{}A \PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}prob \PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}url \PYGZgt{}\PYGZgt{} \PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}url\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}pro
+			sed \PYGZhy{}i \PYG{l+s+s1}{\PYGZsq{}2d\PYGZsq{}} \PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}url\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}pro
+			cat \PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}url\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}pro \PYG{p}{|} grep \PYGZhy{}o \PYGZhy{}E \PYG{l+s+s2}{\PYGZdq{}(\PYGZbs{}([[:digit:]]\PYGZob{}1,3\PYGZcb{}\PYGZbs{}.[[:digit:]]\PYGZob{}1,3\PYGZcb{}\PYGZbs{}.[[:digit:]]\PYGZob{}1,3\PYGZcb{}.[[:digit:]]\PYGZob{}1,3\PYGZcb{})|(AS[[:digit:]]\PYGZob{}1,\PYGZcb{})|(\PYGZbs{}* \PYGZbs{}* \PYGZbs{}*)\PYGZdq{}} \PYGZgt{} p\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}url\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}pro
+			rm \PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}url\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}pro
+			\PYG{n+nv}{element}\PYG{o}{=}\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}\PYG{o}{(}cat p\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}url\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}pro \PYG{p}{|}sed \PYG{l+s+s2}{\PYGZdq{}s/(/ /g\PYGZdq{}}\PYG{p}{|}sed \PYGZhy{}r \PYGZhy{}e\PYG{l+s+s1}{\PYGZsq{}:a;N;\PYGZbs{}\PYGZdl{}!ba;s/((\PYGZbs{}* \PYGZbs{}* \PYGZbs{}*\PYGZbs{}n))//g\PYGZsq{}}\PYG{p}{|} sed \PYG{l+s+s1}{\PYGZsq{}:a;N;\PYGZbs{}\PYGZdl{}!ba;s/\PYGZbs{}nA/ A/g\PYGZsq{}} \PYG{p}{|} sed \PYG{l+s+s1}{\PYGZsq{}:a;N;\PYGZbs{}\PYGZdl{}!ba;s/\PYGZbs{}n/\PYGZbs{}\PYGZdq{}\PYGZbs{}\PYGZhy{}\PYGZbs{}\PYGZgt{}\PYGZbs{}\PYGZdq{}/g\PYGZsq{}}\PYG{o}{)}
+			\PYG{n+nv}{shape}\PYG{o}{=}\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}\PYG{o}{\PYGZob{}}shapePRO\PYG{o}{[}\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}pro\PYG{o}{]\PYGZcb{}}
+			\PYG{n+nv}{bienfini}\PYG{o}{=}\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}\PYG{o}{(}tail \PYGZhy{}n1 p\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}url\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}pro\PYG{o}{)}
+			\PYG{k}{if} \PYG{o}{[} \PYG{l+s+s2}{\PYGZdq{}\PYGZbs{}\PYGZdl{}bienfini\PYGZdq{}} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}* * *\PYGZdq{}} \PYG{o}{]}
+			\PYG{k}{then}
+				\PYG{n+nb}{echo} \PYG{l+s+s2}{\PYGZdq{}\PYGZbs{}\PYGZdq{}\PYGZbs{}\PYGZdl{}element\PYGZbs{}\PYGZdq{}[arrowhead=\PYGZbs{}\PYGZdl{}shape, color=\PYGZbs{}\PYGZdl{}\PYGZob{}color[\PYGZbs{}\PYGZdl{}i]\PYGZcb{}]\PYGZdq{}} \PYGZgt{}\PYGZgt{} dote.dot
+			\PYG{k}{else}
+				\PYG{n+nb}{echo} \PYG{l+s+s2}{\PYGZdq{}\PYGZbs{}\PYGZdq{}\PYGZbs{}\PYGZdl{}element\PYGZbs{}\PYGZdq{}\PYGZhy{}\PYGZgt{}\PYGZbs{}\PYGZdq{}\PYGZbs{}\PYGZdl{}url\PYGZbs{}\PYGZdq{}[arrowhead=\PYGZbs{}\PYGZdl{}shape, color=\PYGZbs{}\PYGZdl{}\PYGZob{}color[\PYGZbs{}\PYGZdl{}i]\PYGZcb{}]\PYGZdq{}} \PYGZgt{}\PYGZgt{} dote.dot
+			\PYG{k}{fi}
+			rm p\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}url\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}pro
+		\PYG{k}{done}
+		\PYG{n+nv}{i}\PYG{o}{=}\PYG{l+s+se}{\PYGZbs{}\PYGZdl{}}i+1
+	\PYG{k}{done}
+
+	\PYG{c+c1}{\PYGZsh{}Fin du digraph}
+	\PYG{n+nb}{echo} \PYG{l+s+s2}{\PYGZdq{}\PYGZcb{}\PYGZdq{}} \PYGZgt{}\PYGZgt{} dote.dot
+    mv dote.dot dote1.dot
+
+    \PYG{c+c1}{\PYGZsh{}On retire les bulles vides.	}
+    cat dote1.dot \PYG{p}{|} sed \PYGZhy{}r \PYG{l+s+s2}{\PYGZdq{}s/(\PYGZbs{}\PYGZdq{}\PYGZbs{}\PYGZdq{}\PYGZbs{}\PYGZhy{}\PYGZgt{}(.)\PYGZob{}1,\PYGZcb{})//g\PYGZdq{}} \PYGZgt{} dote.dot
+	dot \PYGZhy{}Tpng dote.dot \PYGZgt{} dote.png
+	rm dote1.dot
+	\PYG{n+nb}{exit}
+\end{Verbatim}

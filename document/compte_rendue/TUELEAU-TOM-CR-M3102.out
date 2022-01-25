@@ -2,5 +2,8 @@
 \BOOKMARK [1][-]{section.2}{Description des rfc}{}% 2
 \BOOKMARK [1][-]{section.3}{Definir les protocoles les plus utilises sur internet}{}% 3
 \BOOKMARK [1][-]{section.4}{Traceroute}{}% 4
-\BOOKMARK [1][-]{section.5}{Script}{}% 5
-\BOOKMARK [1][-]{section.6}{Anomalies}{}% 6
+\BOOKMARK [2][-]{subsection.4.1}{Fonctionement}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Option}{section.4}% 6
+\BOOKMARK [1][-]{section.5}{Script}{}% 7
+\BOOKMARK [2][-]{subsection.5.1}{Recup\351ration et }{section.5}% 8
+\BOOKMARK [1][-]{section.6}{Anomalies}{}% 9

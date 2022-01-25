@@ -1,0 +1,22 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+tueleau\PYGZhy{}tom \PYG{o}{[}\PYG{l+m}{172}.42.70.101/24\PYG{o}{]} \PYGZti{} \PYGZdl{} sudo traceroute google.com
+traceroute to google.com \PYG{o}{(}\PYG{l+m}{142}.251.37.206\PYG{o}{)}, \PYG{l+m}{30} hops max, \PYG{l+m}{60} byte packets
+\PYG{l+m}{1}  \PYGZus{}gateway \PYG{o}{(}\PYG{l+m}{172}.42.70.254\PYG{o}{)}  \PYG{l+m}{0}.313 ms  \PYG{l+m}{0}.248 ms  \PYG{l+m}{0}.213 ms
+\PYG{l+m}{2}  gw.iutbeziers.fr \PYG{o}{(}\PYG{l+m}{194}.199.227.254\PYG{o}{)}  \PYG{l+m}{0}.841 ms  \PYG{l+m}{0}.804 ms  \PYG{l+m}{0}.770 ms
+\PYG{l+m}{3}  \PYG{l+m}{100}.75.85.254 \PYG{o}{(}\PYG{l+m}{100}.75.85.254\PYG{o}{)}  \PYG{l+m}{6}.058 ms  \PYG{l+m}{6}.074 ms  \PYG{l+m}{6}.043 ms
+\PYG{l+m}{4}  \PYG{l+m}{100}.75.1.6 \PYG{o}{(}\PYG{l+m}{100}.75.1.6\PYG{o}{)}  \PYG{l+m}{8}.918 ms  \PYG{l+m}{8}.888 ms  \PYG{l+m}{8}.915 ms
+\PYG{l+m}{5}  \PYG{l+m}{10}.3.4.1 \PYG{o}{(}\PYG{l+m}{10}.3.4.1\PYG{o}{)}  \PYG{l+m}{6}.753 ms  \PYG{l+m}{6}.797 ms  \PYG{l+m}{6}.760 ms
+\PYG{l+m}{6}  \PYG{l+m}{193}.55.200.138 \PYG{o}{(}\PYG{l+m}{193}.55.200.138\PYG{o}{)}  \PYG{l+m}{6}.346 ms  \PYG{l+m}{6}.342 ms  \PYG{l+m}{6}.295 ms
+\PYG{l+m}{7}  xe\PYGZhy{}1\PYGZhy{}0\PYGZhy{}12\PYGZhy{}ren\PYGZhy{}nr\PYGZhy{}marseille1\PYGZhy{}rtr\PYGZhy{}131.noc.renater.fr \PYG{o}{(}\PYG{l+m}{193}.51.180.191\PYG{o}{)}  \PYG{l+m}{13}.657 ms xe\PYGZhy{}1\PYGZhy{}0\PYGZhy{}16\PYGZhy{}marseille1\PYGZhy{}rtr\PYGZhy{}131.noc.renater.fr \PYG{o}{(}\PYG{l+m}{193}.51.177.18\PYG{o}{)}  \PYG{l+m}{13}.096 ms  \PYG{l+m}{13}.041 ms
+\PYG{l+m}{8}  xe\PYGZhy{}0\PYGZhy{}0\PYGZhy{}15\PYGZhy{}marseille2\PYGZhy{}rtr\PYGZhy{}131.noc.renater.fr \PYG{o}{(}\PYG{l+m}{193}.51.180.116\PYG{o}{)}  \PYG{l+m}{8}.424 ms xe\PYGZhy{}1\PYGZhy{}0\PYGZhy{}10\PYGZhy{}marseille2\PYGZhy{}rtr\PYGZhy{}131.noc.renater.fr \PYG{o}{(}\PYG{l+m}{193}.51.180.120\PYG{o}{)}  \PYG{l+m}{9}.238 ms xe\PYGZhy{}1\PYGZhy{}0\PYGZhy{}6\PYGZhy{}marseille2\PYGZhy{}rtr\PYGZhy{}131.noc.renater.fr \PYG{o}{(}\PYG{l+m}{193}.51.177.213\PYG{o}{)}  \PYG{l+m}{9}.229 ms
+\PYG{l+m}{9}  \PYG{l+m}{72}.14.218.132 \PYG{o}{(}\PYG{l+m}{72}.14.218.132\PYG{o}{)}  \PYG{l+m}{15}.236 ms  \PYG{l+m}{8}.579 ms  \PYG{l+m}{8}.571 ms
+\PYG{l+m}{10}  \PYG{l+m}{74}.125.244.225 \PYG{o}{(}\PYG{l+m}{74}.125.244.225\PYG{o}{)}  \PYG{l+m}{9}.533 ms  \PYG{l+m}{9}.526 ms  \PYG{l+m}{9}.533 ms
+\PYG{l+m}{11}  \PYG{l+m}{142}.251.78.83 \PYG{o}{(}\PYG{l+m}{142}.251.78.83\PYG{o}{)}  \PYG{l+m}{8}.533 ms  \PYG{l+m}{8}.524 ms  \PYG{l+m}{8}.499 ms
+\PYG{l+m}{12}  mrs09s15\PYGZhy{}in\PYGZhy{}f14.1e100.net \PYG{o}{(}\PYG{l+m}{142}.251.37.206\PYG{o}{)}  \PYG{l+m}{8}.533 ms  \PYG{l+m}{8}.486 ms  \PYG{l+m}{8}.515 ms
+tueleau\PYGZhy{}tom \PYG{o}{[}\PYG{l+m}{172}.42.70.101/24\PYG{o}{]} \PYGZti{} \PYGZdl{} sudo traceroute \PYGZhy{}m \PYG{l+m}{4} google.com
+traceroute to google.com \PYG{o}{(}\PYG{l+m}{142}.251.37.206\PYG{o}{)}, \PYG{l+m}{4} hops max, \PYG{l+m}{60} byte packets
+\PYG{l+m}{1}  \PYGZus{}gateway \PYG{o}{(}\PYG{l+m}{172}.42.70.254\PYG{o}{)}  \PYG{l+m}{0}.223 ms  \PYG{l+m}{0}.212 ms  \PYG{l+m}{0}.266 ms
+\PYG{l+m}{2}  gw.iutbeziers.fr \PYG{o}{(}\PYG{l+m}{194}.199.227.254\PYG{o}{)}  \PYG{l+m}{0}.811 ms  \PYG{l+m}{0}.804 ms  \PYG{l+m}{0}.798 ms
+\PYG{l+m}{3}  \PYG{l+m}{100}.75.85.254 \PYG{o}{(}\PYG{l+m}{100}.75.85.254\PYG{o}{)}  \PYG{l+m}{6}.671 ms  \PYG{l+m}{6}.665 ms  \PYG{l+m}{6}.658 ms
+\PYG{l+m}{4}  \PYG{l+m}{100}.75.1.6 \PYG{o}{(}\PYG{l+m}{100}.75.1.6\PYG{o}{)}  \PYG{l+m}{7}.433 ms  \PYG{l+m}{7}.673 ms  \PYG{l+m}{7}.666 ms
+\end{Verbatim}
